@@ -1,0 +1,20 @@
+$ nosetests -v --with-spec --spec-color
+Account Service Tests
+- It should not Create an Account when sending the wrong data ... ok
+- It should Create a new Account ... ok
+- It should not allow an illegal method call ... ok
+- It should Delete an Account ... ok
+- It should Read a single Account ... ok
+- It should not Read an Account that is not found ... ok
+- It should Get a list of Accounts ... ok
+- It should be healthy ... ok
+- It should get 200_OK from the Home Page ... ok
+- It should return security headers ... ok
+- It should return a CORS header ... ok
+- It should not Create an Account when sending the wrong media type ... ok
+- It should Update an existing Account ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.182s
+
+OK

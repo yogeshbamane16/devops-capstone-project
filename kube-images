@@ -1,0 +1,5 @@
+$ docker images
+REPOSITORY                                            TAG       IMAGE ID       CREATED          SIZE
+us.icr.io/sn-labs-yogeshbamane16/accounts             latest    a8f3b9c71e24   15 minutes ago   168MB
+accounts                                              latest    a8f3b9c71e24   15 minutes ago   168MB
+python                                                3.9-slim  7c9b3a58d112   2 days ago       125MB

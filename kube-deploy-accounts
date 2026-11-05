@@ -1,0 +1,12 @@
+$ kubectl get deployments,pods,replicasets,services -l app=accounts
+NAME                             READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/accounts         1/1     1            1           10m
+
+NAME                                  READY   STATUS    RESTARTS   AGE
+pod/accounts-76d9bf8456-x7q9k         1/1     Running   0          10m
+
+NAME                                        DESIRED   CURRENT   READY   AGE
+replicaset.apps/accounts-76d9bf8456         1         1         1       10m
+
+NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+service/accounts       NodePort    172.21.145.88    <none>        8080:31280/TCP   10m
