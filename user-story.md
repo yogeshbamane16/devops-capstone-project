@@ -17,3 +17,4 @@ Then [ensure some outcomes or assertions]
 - [ ] Criteria 1: Happy path execution
 - [ ] Criteria 2: Edge cases and boundary validation
 - [ ] Criteria 3: Error handling and appropriate HTTP status response
+

@@ -10,3 +10,4 @@ replicaset.apps/accounts-76d9bf8456         1         1         1       10m
 
 NAME                   TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
 service/accounts       NodePort    172.21.145.88    <none>        8080:31280/TCP   10m
+

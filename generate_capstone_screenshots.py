@@ -230,3 +230,4 @@ render_kanban_board("cd-pipeline-done.png", {
     "Sprint Backlog": [], "In Progress": [],
     "Done": [s1, s2, s3, s4, s5, s7, s6, s8, s9, s10]
 }, focus_column="Done", sprint_title="Sprint 3")
+
